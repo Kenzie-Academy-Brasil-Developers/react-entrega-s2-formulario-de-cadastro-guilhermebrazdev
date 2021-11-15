@@ -1,0 +1,32 @@
+#aprovado {
+  height: 500px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(83, 81, 81, 0.7);
+}
+
+#aprovado p {
+  color: blanchedalmond;
+  text-align: center;
+  font-size: 25px;
+}
+
+#aprovado button {
+  margin-top: 20px;
+  width: 120px;
+  height: 45px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+#aprovado button:hover {
+  transform: scale(1.1);
+}
